@@ -1,0 +1,54 @@
+
+@media (max-width: 340px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 991px) {
+    .first-section, .hdw-section, .faq-section, .news-section{
+        padding: 90px 0;
+    }
+}
+
+
+@media (max-width: 1230px) {
+    .separator{
+        display: none;
+    }
+
+    .top-nav_logo{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #primary-nav {
+        font-size: 12px;
+    }
+
+
+    .login-main ul li {
+        padding: 6px;
+    }
+
+    .login-main ul li a{
+        font-size: 12px;
+    }
+
+    .login-main ul li:nth-child(2)::before {
+        left: -3px;
+    }
+}

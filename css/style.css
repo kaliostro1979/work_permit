@@ -479,13 +479,17 @@ body a:hover{
 }
 
 .footer-social ul li{
-    margin-right: 3px;
+    margin-right: 7px;
 }
 
 .footer-social ul li a{
     padding: 5px 8px;
     border-radius: 10px;
     background-color: #404451;
+}
+
+.footer-social ul li a:hover{
+    background-color: #4269ff;
 }
 
 .footer-social ul li a i{

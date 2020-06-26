@@ -21,6 +21,7 @@
     .first-section, .hdw-section, .faq-section, .news-section{
         padding: 90px 0;
     }
+
 }
 
 
@@ -31,6 +32,10 @@
 
     .top-nav_logo{
         margin-bottom: 15px;
+    }
+
+    .system-btn a {
+        padding: 10px 18px;
     }
 }
 

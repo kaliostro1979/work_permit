@@ -1,0 +1,149 @@
+.au-start-section{
+    padding: 80px 0;
+}
+
+.about-us-text{
+    padding: 60px 175px 60px 0;
+}
+
+.about-us-text h6{
+    color: #888888;
+}
+
+.about-us-text ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.about-us-text ul li{
+    position: relative;
+    padding-left: 30px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+.about-us-text ul li:before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #2e59ff;
+    top: 6px;
+    left: 0;
+}
+
+.about-us-img img{
+    width: 100%;
+}
+
+.au-quick{
+    padding: 110px;
+    color: #ffffff;
+}
+
+.au-quick-icon{
+    font-size: 40px;
+}
+
+.au-quick-text p{
+    color: #bdbdbd;
+}
+
+
+
+.au-quick-row .au-quick-item:nth-child(even){
+    background-color: #353536;
+}
+
+.au-quick-row .au-quick-item:nth-child(odd){
+    background-color: #000000;
+}
+
+
+.review_block{
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 35px 0;
+}
+
+.r-user-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.review-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rb-img{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.rbg-message article{
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.review-slider.owl-theme .owl-dots .owl-dot.active span, .review-slider.owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #4269ff;
+}
+
+.review-slider.owl-theme .owl-dots .owl-dot.active:focus, .review-slider.owl-theme .owl-dots .owl-dot.active span:focus{
+    outline: none;
+    border: none;
+    box-shadow: unset;
+}
+
+.au-things-block hr{
+    width: 30%;
+    height: 3px;
+    background-color: #4269ff;
+}
+
+.au-things_section{
+    padding: 150px 0;
+}
+
+.partners-section{
+    background-color: #f1f3fc;
+    padding: 120px 0;
+}
+
+.pb-slider .item{
+    height: 155px;
+    background-color: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pb-slider .item .item_inner{
+    width: 80%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pb-slider .owl-item img{
+    width: 100%;
+}
+
+.pb-title h6{
+    color: #949494;
+}

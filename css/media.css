@@ -54,7 +54,7 @@
     }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1470px) {
     .primary-nav {
         font-size: 12px;
         padding: 35px;
@@ -66,5 +66,9 @@
 
     .login-main ul li:nth-child(2)::before {
         left: -3px;
+    }
+
+    .au-quick{
+        padding: 50px;
     }
 }

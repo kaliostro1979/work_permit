@@ -43,21 +43,6 @@ $('.sidebar-item a').on('click', function (e) {
 
 /*Google Map*/
 
-function initMap() {
-    const myLatLng = { lat: 40.198964680048235, lng: 44.52889812443517 };
-    const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15,
-        center: myLatLng,
-    });
-    new google.maps.Marker({
-        position: myLatLng,
-        map:map,
-        icon: 'http://localhost:63342/work_permit/img/icons/marp_mark.png'
-    });
-}
-
-initMap();
-
 
 $('.reg_options_close_btn').on('click', function () {
     $(this).parent('.reg_options').remove();
@@ -65,4 +50,30 @@ $('.reg_options_close_btn').on('click', function () {
 
 $('.profile_photo_delete_btn').on('click', function () {
     $(this).parent('.profile-photo').remove();
+});
+
+
+$(".review-slider").owlCarousel({
+    items: 1,
+    dots: true
+});
+
+$(".pb-slider").owlCarousel({
+    items: 6,
+    dots: false,
+    margin: 30,
+    responsive: {
+        0:{
+            items:1,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:4,
+        },
+        1200:{
+            items:6,
+        }
+    }
 });

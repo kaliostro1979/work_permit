@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.mib-body a{
+.mib-body a, .mib-body span{
     color: #565656;
     text-transform: uppercase;
     font-family: 'Roboto Condensed';

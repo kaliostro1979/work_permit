@@ -177,7 +177,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     background: transparent;
-    background-image: url(../../img/chevrone.png);
+    background-image: url("../../img/chevrone.png");
     background-repeat: no-repeat;
     background-position-x: 97%;
     background-position-y: 18px;

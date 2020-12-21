@@ -79,7 +79,7 @@ $(".pb-slider").owlCarousel({
 
 function initMap() {
     const myLatLng = { lat: 40.198964680048235, lng: 44.52889812443517 };
-    const map = new maps.Map(document.getElementById("map"), {
+    const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 15,
         center: myLatLng,
     });

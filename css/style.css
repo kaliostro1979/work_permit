@@ -428,10 +428,10 @@ body a:hover{
     color: #4b4b4b;
 }
 
-.faq-col-title-open{
+/*.faq-col-title-open{
     background-color: #686c7b;
     color: #ffffff;
-}
+}*/
 
 .faq-icon{
     width: 25px;
@@ -450,9 +450,9 @@ body a:hover{
     font-size: 18px;
 }
 
-.faq-open{
+/*.faq-open{
     background-color: #ff3d58;
-}
+}*/
 
 .faq-open .la-plus{
     display: none;
@@ -464,14 +464,14 @@ body a:hover{
     transition: 0.5s max-height ease;
 }
 
-.faq-col-body-open{
+.faq-open .faq-col-body{
     max-height: 2000px;
     transition: 0.5s max-height ease;
 }
 
 .faq-col-body p{
     margin: 0!important;
-    padding: 28px 0;
+    padding: 28px 15px;
 }
 
 .faq-banner-main{

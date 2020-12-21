@@ -18,15 +18,13 @@ $('.parallax-window').parallax();
 
 //Collapse FAQ
 
-$('.faq-col-title').on('click', function () {
-    $(this).toggleClass('faq-col-title-open');
-    $(this).find('.faq-icon').toggleClass('faq-open');
-    $(this).parent().find('.faq-col-body').toggleClass('faq-col-body-open')
-})
+$('.faq-collapse-main').on('click', function () {
+    $(this).toggleClass('faq-open');
+});
 
 
 $('.burger-menu-btn').on('click', function () {
-    $(this).toggleClass('burger-menu-btn-close')
+    $(this).toggleClass('burger-menu-btn-close');
     $('.burger-menu').toggleClass('burger-menu-show')
 });
 

@@ -108,6 +108,8 @@ body a:hover{
     text-decoration: none;
 }
 
+
+
 .lang-item:hover{
     background-color: #eeeeee;
 }
@@ -119,59 +121,6 @@ body a:hover{
 }
 
 /*Login Block*/
-
-/*.login-main{
-    padding: 4px 3px;
-    background-color: #4269ff;
-    width: 340px;
-    font-size: 14px;
-}
-
-.login-main ul{
-    margin: 0;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
-.login-main ul li{
-    padding: 7px 9px;
-}
-
-.login-main ul li:nth-child(2){
-    position: relative;
-}
-
-.login-main ul li:nth-child(2)::before{
-    content: " ";
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    background-color: #ffffff;
-    top: 15px;
-    left: -4px;
-    border-radius: 50%;
-}
-
-
-.login-main ul li a{
-    color: #ffffff;
-}
-
-.login-main ul li i{
-    color: #ffffff;
-    font-size: 12px;
-}
-
-.login-main ul li:last-child{
-    background-color: #ffffff;
-    border-radius: 6px;
-}
-
-.login-main ul li:last-child a{
-    padding: 20px;
-    color: #000000;
-}*/
 
 .login-main{
     display: flex;
@@ -196,6 +145,7 @@ body a:hover{
 
 .login-main ul li a{
     color: #ffffff;
+    cursor: pointer;
 }
 
 .post-job-btn{
@@ -723,4 +673,141 @@ body a:hover{
     margin-bottom: 20px;
 }
 
+/*Modal*/
 
+#modal-main .show{
+    display: flex!important;
+    align-items: center;
+}
+
+#modal-main .modal-dialog{
+    max-width: 45%;
+}
+
+#modal-main .modal-footer{
+    border-top: none;
+    height: 70px;
+}
+
+#modal-main .modal-body-login, #modal-main .modal-body-signup{
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+#modal-main .modal-body-social ul{
+    list-style: none;
+    display: flex;
+}
+
+.modal-body-logo img{
+    width: 100%;
+}
+
+.modal-body-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-social-item{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+#modal-main .modal-body-social ul li{
+    margin-right: 5px;
+}
+
+#modal-main .modal-body-login .modal-body-form h4, #modal-main .modal-body-login .modal-body-form h6{
+    margin: 25px 0!important;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#modal-main .modal-body-form .form-control{
+    border: 1px solid #666666;
+    background: transparent;
+    border-radius: 10px;
+    height: 50px;
+}
+
+#modal-main .modal-body-form .form-control:focus{
+    outline: none;
+    box-shadow: unset;
+}
+
+#modal-main .modal-body-form .form-control::placeholder{
+    color: #ffffff;
+}
+
+#modal-main .modal-signup-form .form-control{
+    border: 2px solid #e6e6e6;
+}
+
+#modal-main .modal-signup-form .form-control::placeholder{
+    color: #cfcfcf;
+}
+
+#modal-main .modal-body-form button{
+    padding: 7px 35px;
+    border-radius: 6px;
+}
+
+.modal-body-signup h4{
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.modal-signup-text{
+    color: #777777;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.modal-signup-form .custom-radio label, .modal-signup-form .custom-control-label{
+    color: #777777;
+}
+
+.modal-signup-form .custom-control-label{
+    text-align: left;
+}
+
+
+#modal-main .modal-signup-form .custom-control.terms-condition-checkbox .custom-control-label::before{
+    background-color: transparent!important;
+    border: 1px solid #e6e6e6!important;
+    border-radius: 3px;
+}
+
+#modal-main .modal-signup-form .custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+    background-image: unset;
+    background-color: #777777;
+    border-radius: 3px;
+}
+
+#modal-main .modal-signup-form .custom-control-label::before{
+    border-radius: unset;
+    background-color: #e6e6e6;
+    border: none;
+}
+
+#modal-main .modal-signup-form .custom-control-input:focus~.custom-control-label::before{
+    outline: none;
+    border: none;
+    box-shadow: unset;
+}
+
+#modal-main .modal-signup-form .custom-radio .custom-control-input:checked~.custom-control-label::after{
+    background-color: #777777;
+    background-image: unset;
+}

@@ -704,7 +704,7 @@ body a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70vh;
+    /*height: 70vh;*/
 }
 
 #modal-main .modal-body-social ul{

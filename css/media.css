@@ -58,10 +58,6 @@
         max-width: 100%;
     }
 
-    #modal-main .modal-body-login, #modal-main .modal-body-signup{
-        height: 85vh;
-    }
-
     .separator{
         display: none;
     }
@@ -85,6 +81,11 @@
 }
 
 @media (max-width: 1470px) {
+    #modal-main .modal-body-login, #modal-main .modal-body-signup{
+        padding: 15px 0;
+    }
+
+
     .primary-nav {
         font-size: 12px;
         padding: 35px;

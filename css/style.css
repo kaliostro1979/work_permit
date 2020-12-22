@@ -837,3 +837,11 @@ body a:hover{
     text-align: center;
 }
 
+.active-tab{
+    background-color: #4269ff;
+}
+
+.active-tab .tab_btn a{
+    color: #ffffff;
+}
+

@@ -675,6 +675,14 @@ body a:hover{
 
 /*Modal*/
 
+.desktop-modal{
+    display: block;
+}
+
+#mobile-modal-main{
+    display: none;
+}
+
 #modal-main .show{
     display: flex!important;
     align-items: center;
@@ -811,3 +819,17 @@ body a:hover{
     background-color: #777777;
     background-image: unset;
 }
+
+.mobile_tabs{
+    display: none;
+}
+
+.mobile_tabs.visible_tab{
+    display: block;
+}
+
+.mobile_tab_btn{
+    padding: 10px 0;
+    text-align: center;
+}
+

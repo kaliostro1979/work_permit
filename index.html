@@ -445,7 +445,7 @@
          aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="container">
+                <div class="container desktop-modal">
                     <div class="row">
                         <div class="col-lg-6 modal-body-col" style="background-color: #333333">
                             <div class="modal-body-login">
@@ -464,10 +464,10 @@
                                     </div>
                                     <form>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <input type="email" class="form-control" id="desktop_login_modal_email" aria-describedby="emailHelp" placeholder="Enter email">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                            <input type="password" class="form-control" id="desktop_login_modal_password" placeholder="Password">
                                         </div>
                                         <button type="button" class="btn btn-primary" data-dismiss="modal">SignIn</button>
                                     </form>
@@ -495,28 +495,28 @@
                                 <div class="modal-body-form modal-signup-form">
                                     <form>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="modal_name" aria-describedby="emailHelp" placeholder="Your Name">
+                                            <input type="text" class="form-control" id="desktop_modal_name" aria-describedby="emailHelp" placeholder="Your Name">
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="modal_email" placeholder="Your Email">
+                                            <input type="email" class="form-control" id="desktop__signup_modal_email" placeholder="Your Email">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" id="modal-password" placeholder="Password">
+                                            <input type="password" class="form-control" id="desktop_signup_modal-password" placeholder="Password">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" id="modal_retype_password" placeholder="Retype Password">
+                                            <input type="password" class="form-control" id="desktop_modal_retype_password" placeholder="Retype Password">
                                         </div>
                                         <div class="custom-control custom-radio custom-control-inline mb-4">
-                                            <input type="radio" class="custom-control-input" id="modal_male" name="modal_radio" value="customEx" checked>
-                                            <label class="custom-control-label" for="modal_male">Male</label>
+                                            <input type="radio" class="custom-control-input" id="modal_desktop_male" name="modal_radio" value="modal_desktop_radio" checked>
+                                            <label class="custom-control-label" for="modal_desktop_male">Male</label>
                                         </div>
                                         <div class="custom-control custom-radio custom-control-inline mb-4">
-                                            <input type="radio" class="custom-control-input" id="modal_female" name="modal_radio" value="customEx">
-                                            <label class="custom-control-label" for="modal_female">Female</label>
+                                            <input type="radio" class="custom-control-input" id="modal_desktop_female" name="modal_radio" value="modal_desktop_radio">
+                                            <label class="custom-control-label" for="modal_desktop_female">Female</label>
                                         </div>
                                         <div class="custom-control custom-checkbox terms-condition-checkbox mb-4">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                                            <label class="custom-control-label" for="customCheck">By Clicking on this You are agree with
+                                            <input type="checkbox" class="custom-control-input" id="desktop_modal_checkbox" name="desktop_modal_checkbox">
+                                            <label class="custom-control-label" for="desktop_modal_checkbox">By Clicking on this You are agree with
                                                 our <span>Terms & Condition</span></label>
                                         </div>
                                         <div class="modal-btn">
@@ -536,10 +536,109 @@
                         </div>
                     </div>
                 </div>
+                <div class="container mobile-modal-main">
+                    <div class="mobile_modal_tab_btn">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mobile_tab_btn">
+                                    <a href="login">Login</a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mobile_tab_btn">
+                                    <a href="signup">SignUp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="login" class="col-lg-12 mobile_login_section mobile_tabs visible_tab" style="background-color: #333333" tabname="login">
+                            <div class="modal-body-login">
+                                <div class="modal-body-logo mb-4">
+                                    <img src="./img/logo-light.png" alt="">
+                                </div>
+                                <div class="modal-body-text">
+                                    <span>
+                                        Create an Account it takes less than a minute.
+                                        If you have already account please LOGIN
+                                    </span>
+                                </div>
+                                <div class="modal-body-form">
+                                    <div class="mod-form-title mb-4 mt-5">
+                                        <h4>login form</h4>
+                                    </div>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="mobile_login_modal_email" aria-describedby="emailHelp" placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="mobile_login_modal_password" placeholder="Password">
+                                        </div>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">SignIn</button>
+                                    </form>
+                                    <h6>or</h6>
+                                    <h6>login with</h6>
+                                    <div class="modal-body-social">
+                                        <ul>
+                                            <li><a href="#"><div class="modal-social-item" style="background-color: #5a73c4"><i class="fab fa-facebook-f"></i></div></a></li>
+                                            <li><a href="#"><div class="modal-social-item" style="background-color: #ff4e52"><i class="fab fa-google-plus-g"></i></div></a></li>
+                                            <li><a href="#"><div class="modal-social-item" style="background-color: #59ceff"><i class="fab fa-twitter"></i></div></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="signup" class="col-lg-12 modal-body-col mobile_signup_section mobile_tabs" tabname="signup">
+                            <div class="modal-body-signup">
+                                <h4 class="mb-4 mt-2">signup form</h4>
+                                <div class="modal-body-text modal-signup-text mb-4">
+                                    <span>
+                                        Create an Account it takes less than a minute.
+                                        If you have already account please LOGIN
+                                    </span>
+                                </div>
+                                <div class="modal-body-form modal-signup-form">
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="mobile_modal_name" aria-describedby="emailHelp" placeholder="Your Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="mobile__signup_modal_email" placeholder="Your Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="mobile_signup_modal-password" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="mobile_modal_retype_password" placeholder="Retype Password">
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline mb-4">
+                                            <input type="radio" class="custom-control-input" id="modal_mobile_male" name="modal_radio" value="modal_desktop_radio" checked>
+                                            <label class="custom-control-label" for="modal_mobile_male">Male</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline mb-4">
+                                            <input type="radio" class="custom-control-input" id="modal_mobile_female" name="modal_radio" value="modal_desktop_radio">
+                                            <label class="custom-control-label" for="modal_mobile_female">Female</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox terms-condition-checkbox mb-4">
+                                            <input type="checkbox" class="custom-control-input" id="mobile_modal_checkbox" name="desktop_modal_checkbox">
+                                            <label class="custom-control-label" for="desktop_modal_checkbox">By Clicking on this You are agree with
+                                                our <span>Terms & Condition</span></label>
+                                        </div>
+                                        <div class="modal-btn">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">SignUp</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 <footer>
     <div class="main-footer">

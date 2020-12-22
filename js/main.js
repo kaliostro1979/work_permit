@@ -77,7 +77,7 @@ $(".pb-slider").owlCarousel({
 });
 
 
-function initMap() {
+/*function initMap() {
     const myLatLng = { lat: 40.198964680048235, lng: 44.52889812443517 };
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 15,
@@ -90,4 +90,19 @@ function initMap() {
     });
 }
 
-initMap();
+initMap();*/
+
+
+/*Mobile modal Tabs*/
+/*$('.mobile_tabs').removeClass('visible_tab')
+$('.mobile_tab_btn').on('click', function () {
+    if ($(this).attr('tabname') === $('.mobile_tabs').attr('tabname')){
+        $('.mobile_tabs').addClass('visible_tab')
+    }
+})*/
+
+$('.mobile_tab_btn a').on('click', function (e) {
+    e.preventDefault();
+    $('.mobile_tabs').hide();
+    $("#" + $(this).attr('href')).show();
+});

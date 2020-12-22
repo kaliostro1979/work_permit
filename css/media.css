@@ -29,6 +29,17 @@
         padding: 90px 0;
     }
 
+    .desktop-modal{
+        display: none;
+    }
+
+    .mobile-modal-main{
+        display: block;
+    }
+
+    #modal-main .modal-dialog {
+         max-width: 100%;
+    }
 
 
 }

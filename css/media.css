@@ -54,6 +54,14 @@
 
 
 @media (max-width: 1270px) {
+    #modal-main .modal-dialog{
+        max-width: 100%;
+    }
+
+    #modal-main .modal-body-login, #modal-main .modal-body-signup{
+        height: 85vh;
+    }
+
     .separator{
         display: none;
     }

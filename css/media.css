@@ -41,6 +41,14 @@
          max-width: 100%;
     }
 
+    #modal-main .modal-body-login, #modal-main .modal-body-signup{
+        padding: 30px;
+    }
+
+    #modal-main .modal-body-login, #modal-main .modal-body-signup{
+        height: unset;
+    }
+
 
 }
 

@@ -820,6 +820,10 @@ body a:hover{
     background-image: unset;
 }
 
+.mobile-modal-main{
+    display: none;
+}
+
 .mobile_tabs{
     display: none;
 }

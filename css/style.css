@@ -845,3 +845,19 @@ body a:hover{
     color: #ffffff;
 }
 
+.modal_mobile-close{
+    position: absolute;
+    color: #333333;
+    background: #ffffff;
+    top: -7px;
+    left: -5px;
+    z-index: 13;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    line-height: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+

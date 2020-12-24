@@ -37,9 +37,9 @@
         display: block;
     }
 
-    #modal-main .modal-dialog {
+   /* #modal-main .modal-dialog {
          max-width: 100%;
-    }
+    }*/
 
     #modal-main .modal-body-login, #modal-main .modal-body-signup{
         padding: 30px;
@@ -54,9 +54,9 @@
 
 
 @media (max-width: 1270px) {
-    #modal-main .modal-dialog{
+    /*#modal-main .modal-dialog{
         max-width: 100%;
-    }
+    }*/
 
     .separator{
         display: none;

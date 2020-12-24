@@ -683,10 +683,12 @@ body a:hover{
     display: none;
 }
 
+/*
 #modal-main .show{
     display: flex!important;
     align-items: center;
 }
+*/
 
 #modal-main .modal-dialog{
     max-width: 45%;
@@ -711,6 +713,7 @@ body a:hover{
     list-style: none;
     display: flex;
 }
+
 
 .modal-body-logo img{
     width: 100%;
